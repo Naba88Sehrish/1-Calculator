@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  background-color: #f0f0f0; /* Optional: Change the background color of the page */
+}
+
+#calculator {
+  border: 1px solid rgb(187, 183, 183);
+  border-radius: 5px;
+  width: 200px;
+  background: #323A49;
+ 
+}
+
+#display {
+  margin: 10px;
+  width: 85%;
+  font-size: 25px;
+  background-color: #A7BAC6;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  background-color: #7895A8;
+  color:#fff;
+  font-weight: bold;
+}
